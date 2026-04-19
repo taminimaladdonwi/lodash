@@ -18,7 +18,8 @@
     "test:bun": "bun test/test.js",
     "build": "node build/build.js",
     "docs": "node build/docs.js",
-    "lint": "eslint lodash.js"
+    "lint": "eslint lodash.js",
+    "lint:fix": "eslint lodash.js --fix"
   },
   "devDependencies": {
     "benchmark": "^2.1.4",
