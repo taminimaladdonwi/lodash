@@ -21,7 +21,8 @@
     "build:prod": "node build/build.js --minify",
     "docs": "node build/docs.js",
     "lint": "eslint lodash.js",
-    "lint:fix": "eslint lodash.js --fix"
+    "lint:fix": "eslint lodash.js --fix",
+    "bench": "node perf/perf.js"
   },
   "devDependencies": {
     "benchmark": "^2.1.4",
